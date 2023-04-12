@@ -20,6 +20,13 @@ const projects = [
     lessons: ['NextJS + AWS', 'ChatGPT generated content', 'TreeX rework'],
   },
   {
+    name: 'poll app',
+    img: '/pollapp.png',
+    href: 'http://easily-poll-students.s3-website-us-west-2.amazonaws.com/',
+    about: 'Back-end engineer',
+    lessons: ['AWS backend', 'custom authentication flow', 'GraphQL'],
+  },
+  {
     name: 'Speedy Legal',
     img: '/speedylegal.png',
     href: 'https://www.speedy.legal/',
@@ -44,7 +51,7 @@ const projects = [
     name: 'Floop',
     img: '/Floop.png',
     href: 'https://floopedu.com/',
-    about: 'Front End Intern',
+    about: 'Front-end Intern',
     lessons: ['React', 'Firebase', 'Teamwork'],
   },
 ]
