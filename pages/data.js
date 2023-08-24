@@ -3,38 +3,46 @@ import Image from "next/image";
 
 export default function Data(props) {
   return (
-    <div>
+    <Box sx={{width: '100%'}}>
       <Box p={2} sx={{display: 'flex', justifyContent: 'center'}}>
         <Typography fontSize={'1.2rem'}>
           Data Science Projects
         </Typography>
       </Box>
 
-      {projects.map((val) => (
-        <Project key={val.name} props={val} />
-      ))}
-    </div>
+      <Box sx={{display: 'flex', flexWrap: 'wrap'}}>
+        {projects.map((val) => {
+          return (
+            <Project key={val.name} props={val} />
+          )
+        })}
+      </Box>
+    </Box>
   );
 }
 
 function Project({props}) {
   return (
-    <Box p={1} sx={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+    <Box p={2}>
       <Image 
-        width={360}
-        height={300}
+        width={260}
+        height={200}
         alt={props.name}
         src={`/ds/${props.image}`}
         priority={true}
       />
       <Box>
-        {props.name}
-        <Button href={props.gitLink}>
-          github
-        </Button>
-        <Button href={props.projectLink}>
-          project
-        </Button>
+        <Box>
+          {props.name}
+        </Box>
+        <Box>
+          <Button href={props.gitLink}>
+            github
+          </Button>
+          <Button href={props.projectLink}>
+            project
+          </Button>
+        </Box>
       </Box>
     </Box>
   )
@@ -43,7 +51,7 @@ function Project({props}) {
 const projects = [
   {
     "image": "nn_relation.png",
-    "name": "Neural Networks Nonlinear Learning",
+    "name": "NN Nonlinear Learning",
     "gitLink": "https://github.com/vzwork/nn_relation",
     "projectLink": "https://github.com/vzwork/nn_relation/blob/main/project.ipynb"
   },
