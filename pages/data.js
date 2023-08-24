@@ -95,7 +95,7 @@ const projects = [
     "image": "num_methods.png",
     "name": "Numerical Methods",
     "gitLink": "https://github.com/vzwork/num_methods",
-    "projectLink": "https://github.com/vzwork/neural_networks/blob/main/project_us.ipynb"
+    "projectLink": "https://github.com/vzwork/num_methods/blob/main/project.ipynb"
   },
   {
     "image": "intro_to_ml.png",
