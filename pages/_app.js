@@ -62,9 +62,9 @@ export default function MyApp({ Component, pageProps }) {
             <Link href="/">
               <Button>profile</Button>
             </Link>
-            <Link href="/locus">
+            {/* <Link href="/locus">
               <Button>locus</Button>
-            </Link>
+            </Link> */}
             <Link href="/data">
               <Button>data</Button>
             </Link>
