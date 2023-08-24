@@ -92,7 +92,7 @@ function Experience() {
               &nbsp;- Front-end Developer
             </Typography>
           </div>
-          <Typography fontSize={"0.8rem"}>2022 Seb - 2022 Nov</Typography>
+          <Typography fontSize={"0.8rem"}>2022 Mar - 2022 Jun</Typography>
         </Box>
         <List>
           <ListItem>
