@@ -1,14 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
-
 html,
 body {
-  background: rgb(38, 49, 75);
-  color: white;
+  background: #e4e8ea;
+  color: black;
   padding: 0;
   margin: 0;
-  font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-    Comfortaa, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-    sans-serif;
+font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+  Comfortaa, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+  sans-serif;
 }
 
 * {
